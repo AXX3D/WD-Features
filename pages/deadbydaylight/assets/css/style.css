@@ -1,0 +1,304 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+
+*
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.header
+{
+    width: 100%;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    padding: 20px 10px;
+    overflow-x: hidden;
+}
+
+.header a
+{
+    float: left;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 25px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+
+  .header a.logo
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+  .header a:hover
+{
+    color: red;
+}
+
+  .header-right
+{
+    float: right;
+    padding: 0px 20px;
+}
+
+  @media screen and (max-width: 500px)
+{
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+}
+
+body
+{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.containleft
+{
+  background: url(pages/deadbydaylight/assets/img/trapper.jpg);
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.left
+{
+    float: left;
+    color: white;
+    padding: 20px 0px;
+    margin: 50px;
+    font-size: 20px;
+}
+
+
+.buttonleft #buy
+{
+    font-size: 15px;
+    letter-spacing: 2px;
+    background: rgb(206, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 15px 85px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.buttonleft #buy:hover
+{
+    background: rgb(151, 0, 0);
+}
+
+.survivorbg
+{
+  background: url(pages/deadbydaylight/assets/img/run.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+}
+
+.survivor
+{
+  width: 100%;
+  float: left;
+  color: white;
+  padding: 20px 0px;
+  margin: 50px;
+}
+
+.killerbg
+{
+  background: url(pages/deadbydaylight/assets/img/killer.png);
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  padding: 20px 0px;
+  overflow-x: hidden;
+}
+
+.killer
+{
+  width: 100%;
+  float: left;
+  color: white;
+  padding: 20px 0px;
+  margin: 50px;
+}
+
+
+.footer
+{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    font-family: consolas;
+}
+
+.footercontainer
+{
+    width: 100%;
+    padding: 10 px 0px 10px;
+}
+
+.socialicons
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a
+{
+    text-align: center  ;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    transition: 0.2s;
+}
+
+.socialicons a:hover
+{
+    color: #ffffff;
+    background: rgb(151, 0, 0);
+    box-shadow: 0 0 10px #700009;
+}
+
+
+.footerbottom
+{
+    background-color: #000;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerbottom p
+{
+    font-size: 10px;
+    color: white;
+}
+
+.designer
+{
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+
+@media (max-width: 500px)
+{
+    .footernav ul
+    {
+        flex-direction: column;
+    }
+    .footernav ul li
+    {
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
