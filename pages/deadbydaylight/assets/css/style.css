@@ -181,7 +181,7 @@ body
 
 .survivorbg
 {
-  background: url(./assets/img/run.png);
+  background: url('assets/img/run.png');
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
