@@ -181,7 +181,7 @@ body
 
 .survivorbg
 {
-  background: url('https://raw.githubusercontent.com/AXX3D/WD-Features/main/pages/deadbydaylight/assets/img/run.png');
+  background: url("https://raw.githubusercontent.com/AXX3D/WD-Features/main/pages/deadbydaylight/assets/img/run.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -203,7 +203,7 @@ body
 
 .killerbg
 {
-  background: url('https://raw.githubusercontent.com/AXX3D/WD-Features/main/pages/deadbydaylight/assets/img/killer.png');
+  background: url("https://raw.githubusercontent.com/AXX3D/WD-Features/main/pages/deadbydaylight/assets/img/killer.jpg");
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
