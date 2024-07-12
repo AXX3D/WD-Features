@@ -6,21 +6,21 @@
 <div align="center">
   <a href="https://github.com/AXX3D/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="https://raw.githubusercontent.com/AXX3D/WD-HeaderPractice/main/WD-FooterHeader/assets/img/loggg.png" alt="RAT" width="130" height="130">
+    <img src="assets/img/logo.png" alt="Nyebe" width="130" height="130">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">WD-Features</h3>
+  <h3 align="center">WD-Finals</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Presenting 2 Features Pages that is created using HTML, CSS, and JS only.
+  My Finals Project for Web Design 1
 </div>
 
 <br />
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=AXX3D/WD-Features)
+![](https://visit-counter.vercel.app/counter.png?page=AXX3D/WD-Finals)
 
 ---
 
@@ -57,17 +57,15 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-
-- This is a student's attempt at creating two feature pages
-- This is to demonstrate the student's understanding of the course material
-- The designs were based off asymmetrical horror games
-- HTML and CSS were used
+- A Project Showcase
+- The culmination of everything I have learnt this semester for web design
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 - MultiPage Website
-- Pages are Linked
+- Animated Parts
+- Working Links
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -86,37 +84,39 @@
 7. File Structure to follow below.
 
 ```
-WD-Features
+WD-Finals
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ killer.png
-|   |   └─ ormond.png
-|   |   └─ run.png
-|   |   └─ trapper.png
+|   |   └─ logo.png | nyebe_white.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ deadbydaylight
+|  └─ devthoughts
 |  |  └─ assets
 |  |  |  └─ css
 |  |  |  |  └─ style.css
 |  |  |  └─ img
-|  |  |     └─ killer.jpg
-|  |  |     └─ run.jpg
-|  |  |     └─ trapper.jpg
+|  |  |  |  └─ logo.png
 |  |  |  └─ js
 |  |  |     └─ script.js
 |  |  └─ index.html
-|  └─ identityv
+|  └─ projectshowcase
+|  |  └─ assets
+|  |  |  └─ css
+|  |  |  |  └─ style.css
+|  |  |  └─ img
+|  |  |  |  └─ headfoot.png | herocards.png | logo.png | midterm.png | mockupresume.png
+|  |  |  └─ js
+|  |  |     └─ script.js
+|  |  └─ index.html
+|  └─ steamwishlist
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |     └─ lucky.jpg
-|     |     └─ nightmare.jpg
-|     |     └─ orpheus.jpg
+|     |  |  └─ logo.png
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
@@ -128,7 +128,5 @@ WD-Features
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-
-| Dead By Daylight Website | Reference | https://deadbydaylight.com/ |
-
-| Identity V Website | Reference | https://www.identityvgame.com/ |
+|-|-|-|
+| Mockup Website | Website Design Reference/Base | https://axx3d.github.io/WD-Features/pages/deadbydaylight/index.html |
